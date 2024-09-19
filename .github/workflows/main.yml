@@ -22,7 +22,7 @@ jobs:
       with:
         arch: arm64
         compiler: clang/12
-        defconfig: defconfig
+        defconfig: rockpi4_defconfig
         image: Image.gz-dtb
 
     - name: Upload Kernel and Module
